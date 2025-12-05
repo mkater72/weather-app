@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="weather-container">
+
+    <h2>Погода по координатам</h2>
+
+    <div class="input-block">
+        <label>Широта</label>
+        <input id="latInput" type="text" placeholder="Например 55.75">
+    </div>
+
+    <div class="input-block">
+        <label>Долгота</label>
+        <input id="lonInput" type="text" placeholder="Например 37.61">
+    </div>
+
+    <button id="showWeatherBtn">Показать погоду</button>
+
+    <div id="result" class="result"></div>
+
+    <div class="map-block">
+        <iframe id="mapFrame"
+                width="100%"
+                height="300"
+                style="border:0;"
+                loading="lazy">
+        </iframe>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
