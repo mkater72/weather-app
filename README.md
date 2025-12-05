@@ -12,4 +12,4 @@
 - Без библиотек (карта через iframe)
 
 ## Деплой
-Деплой осуществлен на GitHub Pages https://mkater72.github.io/weather-app/
+Деплой осуществлен на GitHub Pages https://mkater72.github.io/weather-app
